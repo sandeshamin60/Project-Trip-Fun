@@ -1,0 +1,22 @@
+
+h1{
+	font-size: 80px;
+	text-align: center;
+	font-family: Lucida Console;	
+	color: white;
+	margin-top: 25px;
+	text-shadow: 0px 0px 10px #444681,
+	             0px 0px 20px #444681,
+	             0px 0px 30px #444681;
+	animation:welcome 4s infinite;
+}
+h1 span{
+	text-shadow: 0px 0px 10px blue,
+	             0px 0px 20px blue,
+	             0px 0px 30px blue;
+	animation:welcome 7s infinite;
+}
+@keyframes welcome{
+	2%{color: #51F0F0}
+
+}
